@@ -4,10 +4,10 @@
 #
 Name     : perl-Class-ErrorHandler
 Version  : 0.04
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
-Summary  : 'Base class for error handling'
+Summary  : Base class for error handling
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Class-ErrorHandler-license = %{version}-%{release}
@@ -24,6 +24,7 @@ use base qw( Class::ErrorHandler );
 Summary: dev components for the perl-Class-ErrorHandler package.
 Group: Development
 Provides: perl-Class-ErrorHandler-devel = %{version}-%{release}
+Requires: perl-Class-ErrorHandler = %{version}-%{release}
 
 %description dev
 dev components for the perl-Class-ErrorHandler package.
