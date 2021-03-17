@@ -4,7 +4,7 @@
 #
 Name     : perl-Class-ErrorHandler
 Version  : 0.04
-Release  : 18
+Release  : 19
 URL      : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
 Summary  : 'Base class for error handling'
@@ -99,4 +99,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Class/ErrorHandler.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Class/ErrorHandler.pm
