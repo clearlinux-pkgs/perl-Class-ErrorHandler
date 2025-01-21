@@ -4,7 +4,7 @@
 #
 Name     : perl-Class-ErrorHandler
 Version  : 0.04
-Release  : 30
+Release  : 31
 URL      : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Class-ErrorHandler-0.04.tar.gz
 Summary  : 'Base class for error handling'
